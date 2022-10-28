@@ -1,0 +1,10 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1666959683217,1533,Open Main Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,7724,473,1,1,null,0,118,748
+1666959683333,1533,/-1,200,OK,Thread Group 1-1,text,true,,7724,473,1,1,https://demo.nopcommerce.com/,1526,0,748
+1666959684868,636,Search,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,16711,1093,1,1,null,0,1,0
+1666959684868,322,/search-5,200,OK,Thread Group 1-1,text,true,,7591,534,1,1,https://demo.nopcommerce.com/search?q=apple,322,0,0
+1666959685191,314,/apple-macbook-pro-13-inch-10,200,OK,Thread Group 1-1,text,true,,9120,559,1,1,https://demo.nopcommerce.com/apple-macbook-pro-13-inch,314,0,0
+1666959685506,231,Add Product,400,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-1,,false,,1369,804,1,1,null,0,3,0
+1666959685506,231,/addproducttocart/details/4/1-13,400,Bad Request,Thread Group 1-1,,false,,1369,804,1,1,https://demo.nopcommerce.com/addproducttocart/details/4/1,231,0,0
+1666959685740,284,Cart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5489,549,1,1,null,0,2,0
+1666959685741,284,/cart-19,200,OK,Thread Group 1-1,text,true,,5489,549,1,1,https://demo.nopcommerce.com/cart,284,0,0
